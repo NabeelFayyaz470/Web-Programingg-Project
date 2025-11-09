@@ -212,8 +212,52 @@ a {
   text-align: center;
   margin: 50px 0px;
 }
+.courseflex{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.coursesection{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center; /* centers the cards */
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px; /* control total width */
+}
 
+.coursesec{
+    padding-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 350px;
+    max-height: 500px;
+    border-radius: 15px;
+    background-color:#f5f7f7;
+}
+.coursesec h4{
+    padding: 10px 10px 5px 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.coursesec p{
+    font-size: 16px;
+    padding: 10px 10px 5px 5px;
+    text-align: justify;
 
+}
+.coursesec img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 300px;
+}
 
 
 
